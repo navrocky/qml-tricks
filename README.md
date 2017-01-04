@@ -12,13 +12,13 @@ http://developer.ubuntu.com/apps/qml/ - мануал по QML/QtQuick из Ubunt
 Существует два способа:
 1. Создаем компонент от  QtObject, объявляем константы в виде свойств:
 
-    MyConsts.qml
-    ```qml
-    import QtQuick 2.0
-    QtObject {
-       property string myTextConst: ”My text”
-       property int myIntConst: 100
-    }
-    ```
+**MyConsts.qml**
+```qml
+import QtQuick 2.0
+QtObject {
+   property string myTextConst: ”My text”
+   property int myIntConst: 100
+}
+```
     
     
